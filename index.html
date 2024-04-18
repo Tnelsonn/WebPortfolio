@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+  <title>Topher Nelson</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sora:wght@700&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+  <link href="style.css" rel="stylesheet">
+  <link href="toggle-switch.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <nav>
+        <h1>Topher Nelson</h1>
+        <ul>
+          <li><a href="index.html"> Work </a></li>
+          <li><a href="resume.html"> Resume </a></li>
+          <li><a href="#"> Contact </a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <label class="toggle-switch">
+          Dark Mode
+          <input type="checkbox" id="dark-mode-toggle">
+          <div class="toggle-switch-border">
+            <div class="toggle-switch-dot"></div>
+          </div>
+        </label>
+      </div>
+      </header>
+  <section class = 'bio'>
+  <img class = 'profile' src = 'https://media.licdn.com/dms/image/D4E03AQGOAm47zcz_DQ/profile-displayphoto-shrink_400_400/0/1687898083181?e=1718841600&v=beta&t=3XDbmEcySxUe3z3pIsebRBTbuwqNMj0hugNKd2v8088'/>
+  <div>
+  <h2>Hello! My Name is Topher Nelson. I'm a Software Engineer.</h2>
+  <p>I've been coding since 2017. I have experience in JavaScript, Python, C++, and SQL I enjoy working on a wide range of projects. In my free time I enjoy running, cooking, and playing electric guitar.</p>
+  <a class = 'button' href = 'https://github.com/Tnelsonn' target = 'blank'>See my work</a>
+  </div>
+  </section>
+  <section class = 'work'>
+    <h2>Recent Work</h2>
+    <article>
+      <div>
+      <h3>3D OpenGL Maze Game</h3>
+      <p>Reading in Textures and Mapping in a 3D Space</p>
+      <strong>April 2024</strong>
+      <ul>
+        <li>Developed a maze game using OpenGL and GLUT.</li>
+        <li>Implemented functionality for reading the maze layout from a text file.</li>
+        <li>Designed functions to draw the maze walls, floor, and player cube using textured blocks.</li>
+        <li>Implemented Collision Detection</li>
+      </ul>
+
+      <a class = 'link' href = 'https://github.com/Tnelsonn/Maze-Game/tree/main' target = 'blank'> GitHub Repo </a>
+      </div>
+      <img class = 'article-image' src = 'https://pouch.jumpshare.com/preview/YsUCu_jF5f_6-Ly59lbjV-R1lt1hj8GQfMiakjbjHmJFfS4YDcgmBN9oLuBsFcRuWWm8h2CZKWgt4BIUsVKrMDF_G7DCOtlDa5OwFNrJYHM'/>
+    </article>
+  </section>
+  <footer>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/christopher-nelson-888887222/" target = 'blank'>
+            LinkedIn
+            <span class="link-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            CV
+            <span class="link-icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Tnelsonn/" target = 'blank'>
+            GitHub
+            <span class="link-icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="copywright">© 2024 Topher Nelson</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
