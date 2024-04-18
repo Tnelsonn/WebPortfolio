@@ -91,13 +91,14 @@ section .skills li {
   justify-content: center; /* Horizontally center the courses */
   gap: 2rem;
   padding: 0 2rem;
+  height: auto;
 }
 
 .course {
   margin: 3rem auto;
   width: 500px;
   justify-content: center;
-  height: 15rem;
+  height: auto;
 }
 
 header nav li {
